@@ -1,2 +1,2 @@
-# Image_Slider
+# Image Slider
 First commit/push of the image slider project.
