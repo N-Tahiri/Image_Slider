@@ -1,9 +1,8 @@
 body {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  align-content: center;
-  align-self: center;
-  text-align: center;
-  background-color: rgb(157, 226, 235);
+  background-color: rgb(45, 48, 48);
 }
 .right-item {
   justify-self: center;
@@ -26,6 +25,7 @@ body {
 }
 .right-arrow:hover {
   color: #44d65c;
+  /* background-color: #44d65c; */
 }
 .left-arrow {
   width: 25px;
@@ -59,9 +59,17 @@ body {
 .title {
   grid-column: 1 / span 3;
   margin: 10px;
-  background-color: aliceblue;
+  background-color: rgb(112, 191, 255);
+  border: 2px solid rgb(219, 153, 9);
+  padding: 5px;
 }
 
-.subtitle {
+.fileName {
+  padding-left: 20px;
+}
+.fileNameSpan {
+  color: #e09d0b;
+  font-size: 20px;
   grid-column: 2;
+  margin-bottom: 10px;
 }
